@@ -7,7 +7,7 @@ class VendingMachine
 
   def initialize
     @deposit = 0
-    @drinks = [{drink: Drink.new(name: 'cola', price: 120), count: 5}]
+    @drinks = [{ drink: Drink.new(name: 'cola', price: 120), count: 5 }]
     @sales_amount = 0
   end
 
